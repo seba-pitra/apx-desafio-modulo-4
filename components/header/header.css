@@ -1,0 +1,93 @@
+.header__container {
+    height: 96px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.header__logo {
+    cursor: pointer;
+    height: 70px;
+}
+
+.header__burguer {
+    width: 36px;
+    height: 32px;
+    display: grid;
+    gap: 7px;
+    cursor: pointer;
+}
+
+@media(min-width:769px) {
+    .header__burguer {
+        display: none;
+    }
+}
+
+.burguer__item {
+    background-color: #fff;
+    height: 6px;
+    width: 36px;
+}
+
+.intro__burguer{
+    background-color: #161616;
+    height: 667px;
+    display: none;
+}
+
+.burguer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
+}
+
+.x {
+    font-size: 48px;
+    display: block;
+    color: #fff;
+    text-align: right;
+    padding: 37px;
+    cursor: pointer;
+    margin: 0 auto 70px;
+}
+
+.burguer-title {
+    margin: 0;
+    font-size: 48px;
+}
+
+@media(min-width:769px) {
+    .burguer-title {
+        display: inherit;
+    }
+}
+
+.burguer-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.intro__container-header-desktop {
+    height: 96px;
+    display: none;
+}
+
+@media(min-width:769px) {
+    .intro__container-header-desktop {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.header-desktop-item {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 40px 0 0;
+}
+
+

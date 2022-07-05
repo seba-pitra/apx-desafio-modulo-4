@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #141414;
+}
+
+.contact__title {
+    padding-top: 90px;
+}

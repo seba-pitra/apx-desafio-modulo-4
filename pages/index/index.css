@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+}
+
+.intro {
+    background-image: url("/images/estrellas.jpg");
+    height: 616px;
+}
+
+
+.intro__container {
+    display: grid;
+    gap: 11px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.intro__title, 
+.intro__presentation-title,
+.about-me__title,
+.about-me__presentation-text {
+    color: #fff;
+    font-weight: 700;
+}
+
+@media(min-width: 769px) {
+    .about-me__title,
+    .about-me__presentation-text {
+        color: #141414;
+    }
+}
+
+.intro__title {
+    margin: 0;
+    font-size: 48px;
+}
+
+.intro__presentation-title {
+    margin: 0;
+    font-size: 32px;
+}
+
+.about-me {
+    background-color: #141414;
+    height: 538px;;
+}
+
+@media(min-width: 769px) {
+    .about-me {
+        background-color: #fff;
+    }
+}
+
+.about-me__container {
+    text-align: center;
+    padding: 20px 32px;
+}
+
+@media(min-width: 769px) {
+    .about-me__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.about-me__img {
+    display: none;
+}
+
+@media(min-width: 769px) {
+    .about-me__img {
+        display: inherit;
+        margin-top: -150px;
+    }
+}
+
+.about-me__title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-me__presentation-text {
+    margin-top: 46px;
+    font-size: 16px;
+}
+
+@media(min-width:769px) {
+    .about-me__presentation-text {
+        text-align: left;
+    }
+}
+
+.services {
+    background-color: #FAFAFA;
+}
+
+.services__title {
+    margin: 70px auto 48px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media(min-width:769px) {
+    .services__title {
+        padding-top: 59px;
+    }
+}
+
+.services__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width:769px) {
+    .services__container {
+        flex-direction: row;
+    }
+}
+.services__container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 110px;
+}
+
+.services__img {
+    height: 128px;
+    width: 138px;
+}
+
+.services__text-container {
+    padding: 0 56px;
+}
+
+.services__service-title{
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.services__service-description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}

@@ -3,8 +3,8 @@ const headerComp = function(el) {
 
     componentEl.innerHTML = `
     <div class="header__container">
-        <a <a href="index.html">
-            <img src="./images/logo.png" alt="" class="header__logo">
+        <a href="index.html">
+            <img src="../../images/logo.png" alt="" class="header__logo">
         </a>
         <div class="header__burguer">
             <div class="burguer__item"></div>
@@ -37,8 +37,6 @@ const headerComp = function(el) {
             </h1>
         </div>
     </div>
-    
-        
     `;
 
     el.appendChild(componentEl);

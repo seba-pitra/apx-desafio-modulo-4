@@ -3,7 +3,7 @@ const headerComp = function(el) {
 
     componentEl.innerHTML = `
     <div class="header__container">
-        <a href="https://seba-pitra.github.io/apx-desafio-modulo-4/">
+        <a href="./">
             <img src="./images/logo1.png" class="header__logo">
         </a>
         <div class="header__burguer">

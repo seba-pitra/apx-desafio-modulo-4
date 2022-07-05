@@ -4,7 +4,7 @@ const headerComp = function(el) {
     componentEl.innerHTML = `
     <div class="header__container">
         <a href="index.html">
-            <img src="../../images/logo.png" class="header__logo">
+            <img src="../../images/logo.jpg" class="header__logo">
         </a>
         <div class="header__burguer">
             <div class="burguer__item"></div>
